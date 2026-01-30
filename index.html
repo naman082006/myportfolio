@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NAMAN JAIN</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm <span class="gradient-text">Naman Jain</span></h1>
+            <p class="hero-subtitle">I'm a web developer passionate about creating Portfolio using HTML, CSS<br></p>
+            <p class="hero-description"> I am a student of BCA 2nd year in Dezyne Ecole College 
+    <br>
+    I completed my degree of <b><i>Bachelor Of Computer Application</i></b> in 2027.
+    <br>
+    I have Passion in Drawings,Sports,etc.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <button id="resume-btn" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Resume
+</button>
+
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-card"><img src="image.jpg" height="400px" width="300px" alt=""></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with 3+ years of experience in creating web applications. I specialize in HTML,CSS,JS.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Pattern Project</h3>
+                        <p>This is Java Project.In this Project I have Include 18 Pattern with JOption Pane function for user Input </p>
+                        <br><br><br>
+                        <div class="project-links">
+                            <a href="https://github.com/naman082006/Java-Star-Patterns-Project.git"><i class="fab fa-github fa-3x" ></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Ascii Project</h3>
+                        <p>This is Java Project.In this Project I have Include 5 Options. Ex :- letter,word,range,number,symbols. In this Options User give Input and This code shows Output as X Pattern.</p>
+                        <br>
+                        <div class="project-links">
+                            <a href="https://github.com/naman082006/java-asciii-project.git"><i class="fab fa-github fa-3x"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Virtual Voice Assistant</h3>
+                        <p>Shifra a virtual voice Assistant and performed all task given by user through voice command and text</p>
+                        <br><br><br>
+                        <div class="project-links">
+                            <a href="https://github.com/naman082006/ai-assistant.git"><i class="fab fa-github fa-3x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in hearing about new opportunities and projects.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nj500880@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 8058581360</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Nasirabad (Raj.)</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2026 Portfolio. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com//" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://whatsapp.com" target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/naman082006" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
